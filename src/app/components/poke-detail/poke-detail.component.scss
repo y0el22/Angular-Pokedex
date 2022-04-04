@@ -1,0 +1,36 @@
+@import "../../../assets/styles/variables.scss";
+
+.card{
+
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+    background-color:  $red;
+    border-radius: 10px;
+
+}
+
+.header-image{
+    background-size: cover;
+}
+
+.mat-card-header{
+    background-color: $white;
+    padding-top: 10px;
+    border-radius: 8px;
+
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: $black;
+}
+
+.mat-card-subtitle{
+    font-weight: bold;
+    color: $black;
+}
+
+.mat-chip{
+    background-color: $black !important;
+}
